@@ -14,16 +14,14 @@ Summary: Estimate the mean of a Gaussian vector, by choosing among a large colle
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-linselect-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-linselect-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-linselect-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-linselect-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-linselect-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-linselect-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-linselect-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-linselect-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-linselect-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-linselect-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-linselect-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-linselect-feedstock/branch/master)
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-r--linselect-green.svg)](https://anaconda.org/conda-forge/r-linselect)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-linselect.svg)](https://anaconda.org/conda-forge/r-linselect)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-linselect.svg)](https://anaconda.org/conda-forge/r-linselect)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-linselect.svg)](https://anaconda.org/conda-forge/r-linselect)
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-linselect/badges/version.svg)](https://anaconda.org/conda-forge/r-linselect)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-linselect/badges/downloads.svg)](https://anaconda.org/conda-forge/r-linselect)
 
 Installing r-linselect
 ======================
