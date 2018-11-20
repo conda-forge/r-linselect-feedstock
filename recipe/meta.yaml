@@ -15,8 +15,8 @@ source:
   sha256: 981f40b08efdf5fc91cf7f879e067459052a115462a18b01e06653eeec3da9b7
 
 build:
-  number: 0
-  skip: true  # [win32]
+  noarch: generic
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -54,8 +54,7 @@ about:
     lasso, pls, randomForest. Moreover, it can be applied for choosing the tuning parameter
     in a Gauss-lasso procedure.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
