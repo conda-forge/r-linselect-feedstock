@@ -15,6 +15,7 @@ source:
   sha256: 690f63673bd7a6136cc426e085c2e450bb1eee7e34be022485802a6f9942890c
 
 build:
+  merge_build_host: True  # [win]
   noarch: generic
   number: 1000
   rpaths:
@@ -22,7 +23,7 @@ build:
     - lib/
 
 requirements:
-  build:
+  host:
     - r-base
     - r-mass
     - r-elasticnet
