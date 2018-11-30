@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/LINselect_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/LINselect/LINselect_{{ version }}.tar.gz
-  sha256: 981f40b08efdf5fc91cf7f879e067459052a115462a18b01e06653eeec3da9b7
+  sha256: 690f63673bd7a6136cc426e085c2e450bb1eee7e34be022485802a6f9942890c
 
 build:
   noarch: generic
