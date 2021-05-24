@@ -24,7 +24,7 @@ requirements:
   build:
     - {{ posix }}zip               # [win]
   host:
-    - r-base >=3.6
+    - r-base
     - r-mass
     - r-elasticnet
     - r-gtools
@@ -32,7 +32,7 @@ requirements:
     - r-pls
     - r-randomforest
   run:
-    - r-base >=3.6
+    - r-base
     - r-mass
     - r-elasticnet
     - r-gtools
@@ -47,7 +47,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=LINselect
-  license: GPL-3
+  license: GPL-3.0-or-later
   summary: Estimate the mean of a Gaussian vector, by choosing among a large collection of estimators.
     In particular it solves the problem of variable selection by choosing the best predictor
     among  predictors emanating from different methods as lasso, elastic-net, adaptive
