@@ -3,7 +3,7 @@ About r-linselect
 
 Home: https://CRAN.R-project.org/package=LINselect
 
-Package license: GPL-3
+Package license: GPL-3.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-linselect-feedstock/blob/master/LICENSE.txt)
 
