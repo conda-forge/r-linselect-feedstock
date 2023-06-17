@@ -1,11 +1,11 @@
-About r-linselect
-=================
+About r-linselect-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-linselect-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=LINselect
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-linselect-feedstock/blob/main/LICENSE.txt)
 
 Summary: Estimate the mean of a Gaussian vector, by choosing among a large collection of estimators. In particular it solves the problem of variable selection by choosing the best predictor among  predictors emanating from different methods as lasso, elastic-net, adaptive lasso, pls, randomForest. Moreover, it can be applied for choosing the tuning parameter in a Gauss-lasso procedure.
 
