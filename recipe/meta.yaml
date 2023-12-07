@@ -1,4 +1,4 @@
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/LINselect_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/LINselect/LINselect_{{ version }}.tar.gz
-  sha256: 57af344b8b309712e23017bdbd06922992fecb23c930df5d5f4a248b1e5b652b
+  sha256: 5021f2a6b6e55d048e31b7abd8f85f2ad8a7ab7f55f4dbe1e9a1b88a3958a269
 
 build:
   merge_build_host: true  # [win]
